@@ -1,0 +1,27 @@
+Authors: Brinna Bryce and Serena Sewell
+Creation date: April 3,2026
+Course: ITT103
+GitHub Public URL: https://github.com/sewell15/Pingpong.Players-POS-ITT103-SP2026.py.git
+
+
+The purpose of this program is to develop a Point of Sale (POS) system for a small business who sell everyday essential items, allowing the processing of purchases made by customers in efforts to improve sales efficiency and reduce manual error.
+ 
+The program was designed creating a catalog of groceries, beverages and household items, building the stores product inventory. To begin any transaction a the store name and slogan is visible with the inclusion of a main menu. This menu provides multiple options to be selected.
+
+	Option one(1) gives the option to view the available products in the product catalog as well as providing information on which category each item 	belong, the cost per unit including the amount of units available. After viewing the catalog the system automatically returns to the main menu to 	select another option.
+
+	Option two(2) enables the adding of items to the shopping cart. Upon selecting 2, a list will generate showing the available products in stock. It 	requires the name of the product to be entered in order to move to the next stage. Ensure the first letter of each word is in upper case. After 	entering the name, it then requests the quantity intended to be purchased after which a message will appear stating the quantity and item was added 	to the cart and return to the main menu. If you choose to add another item repeat option 2.
+
+	Option 3 provides the ability to remove an item from the cart. Once selected the current items in the cart will appear including the quantity and 	requests the name of which product to be removed. It will then request the quantity to be removed. Once entered the message will appear that item 	has been removed and return to the main menu.
+
+	Option 4 is where you are able to view the items that have been added to the shopping cart with the quantity, unit price, total and subtotal.
+
+	Option 5 at checkout shows provides the subtotal, sales tax of ten percent and the total due. You then enter the amount provided for purchase, after 	which a sales receipt will generate. A message follows showing if all items have sufficient stock followed by an enquiry to start a new transaction. 	Type 'y' for yes or 'n' for no, if 'y' is entered it will return to the main menu and if 'n' is entered a thank you message will populate ending the 	program.
+
+	Option 6 is selected if you choose to do another transaction.
+
+	Option 7 exits the program and receiving a thank you message.
+
+For each step if an invalid option is selected or entered an error message will generate giving a clear explanation and return to the main menu to continue. The program ends after a transaction is done or in case the exit option is selected.
+
+
